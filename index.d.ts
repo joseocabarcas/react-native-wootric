@@ -6,7 +6,7 @@ declare module '@wootric/react-native-wootric' {
 
   export function setEndUserEmail(email: string): void;
 
-  export function setEndUserCreatedAt(date: string): void;
+  export function setEndUserCreatedAt(dateTime: number): void;
 
   export function setEndUserExternalId(id: string): void;
 
